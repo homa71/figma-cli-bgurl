@@ -1,0 +1,54 @@
+@font-face {
+    font-family: estedad-black;
+    src: url(../font/Estedad-Black.ttf);
+}
+@font-face {
+    font-family: estedad-bold;
+    src: url(../font/Estedad-Bold.ttf);
+}
+@font-face {
+    font-family: estedad-extraBold;
+    src: url(../font/Estedad-ExtraBold.ttf);
+}
+@font-face {
+    font-family: estedad-extraLight;
+    src: url(../font/Estedad-ExtraLight.ttf);
+}
+@font-face {
+    font-family: estedad-light;
+    src: url(../font/Estedad-Light.ttf);
+}
+@font-face {
+    font-family: estedad-medium;
+    src: url(../font/Estedad-Medium.ttf);
+}
+@font-face {
+    font-family: estedad-regular;
+    src: url(../font/Estedad-Regular.ttf);
+}
+@font-face {
+    font-family: estedad-semiBold;
+    src: url(../font/Estedad-SemiBold.ttf);
+}
+@font-face {
+    font-family: estedad-thin;
+    src: url(../font/Estedad-Thin.ttf);
+}
+@font-face {
+    font-family:estedad-vf;
+    src: url(../font/Estedad-FD-VF.ttf);
+}
+
+@font-face {
+    font-family:number;
+    src: url(../font/Samim-FD.ttf);
+
+}
+
+:root{
+    --estedad-fd:estedad-regular;
+    --estedad-vf:estedad-vf;
+    --number:number;
+    
+    
+}

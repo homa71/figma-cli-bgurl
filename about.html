@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>درباره ما</title>
+    <link rel="stylesheet" href="./public/css/output.css" />
+  </head>
+  <body class="bg-[#F3F3F3]">
+    <!--#region wrapper -->
+    <div class="w-full">
+      <!-- #region banner -->
+      <div
+        class="bg-[url(../image/banner-question.png)] w-full h-[400px] mobile:bg-cover mobile:bg-center relative"
+      >
+        <!-- #region header -->
+        <header
+          class="desktop:w-[calc((1224*100)/1440)%] desktop:h-[96px] bg-[#FFFFFF] rounded-b-2xl px-8 mx-auto flex flex-wrap justify-between items-center relative mobile:w-[95%] mobile:h-[150px]"
+        >
+          <!-- #region hamburger -->
+          <div
+            class="hamburger desktop:hidden mobile:w-[35px] mobile:h-[35px] mobile:border-2 mobile:border-solid mobile:border-b-black mobile:flex mobile:flex-col mobile:items-center mobile:justify-center mobile:gap-[4px] mobile:rounded-md"
+          >
+            <div class="w-[80%] h-[2px] bg-black"></div>
+            <div class="w-[80%] h-[2px] bg-black"></div>
+            <div class="w-[80%] h-[2px] bg-black"></div>
+          </div>
+          <!-- #endregion hamburger -->
+          <!--#region logo -->
+          <a class="block w-[151.28px] h-[59px]" href="./index.html">
+            <img src="./public/image/Logo.png" alt="" />
+          </a>
+          <!--#endregion -->
+          <!--#region menu-->
+          <div
+            class="w-[507px] h-7 flex desktop:flex-wrap items-center justify-between mobile:flex-nowrap"
+          >
+            <nav
+              class="nav desktop:w-[423px] desktop:h-full desktop:flex-row desktop:flex-nowrap justify-between desktop:flex desktop:static desktop:z-0 mobile:absolute mobile:right-[-100%] mobile:w-[200px] mobile:h-fit mobile:flex-col mobile:flex-nowrap mobile:transition-all mobile:duration-300 bg-[white] mobile:z-[2]"
+            >
+              <div
+                class="desktop:w-fit desktop:h-full mobile:w-full mobile:h-fit mobile:flex mobile:justify-center"
+              >
+                <a
+                  class="block desktop:w-fit desktop:h-full font-(family-name:--estedad-fd) text-base font-medium desktop:leading[28.13px] text-[#353535] mobile:w-fit mobile:h-fit mobile:"
+                  href=""
+                >
+                  رزرو خودرو</a
+                >
+              </div>
+
+              <div
+                class="desktop:w-fit h-full mobile:w-full mobile:h-fit mobile:flex mobile:justify-center"
+              >
+                <a
+                  class="block desktop:w-fit desktop:h-full font-(family-name:--estedad-fd) text-base font-medium desktop:leading[28.13px] text-[#353535] mobile:w-fit mobile:h-fit"
+                  href=""
+                >
+                  خدمات ما</a
+                >
+              </div>
+              <div
+                class="desktop:w-fit h-full mobile:w-full mobile:h-fit mobile:flex mobile:justify-center"
+              >
+                <a
+                  class="block w-fit h-full font-(family-name:--estedad-fd) text-base font-medium desktop:leading[28.13px] text-[#353535]"
+                  href=""
+                >
+                  بلاگ</a
+                >
+              </div>
+              <div
+                class="desktop:w-fit h-full mobile:w-full mobile:h-fit mobile:flex mobile:justify-center"
+              >
+                <a
+                  class="block w-fit h-full font-(family-name:--estedad-fd) text-base font-medium desktop:leading[28.13px] text-[#353535]"
+                  href="./about.html"
+                >
+                  درباره ما</a
+                >
+              </div>
+              <div
+                class="desktop:w-fit h-full mobile:w-full mobile:h-fit mobile:flex mobile:justify-center"
+              >
+                <a
+                  class="block w-fit h-full font-(family-name:--estedad-fd) text-base font-medium desktop:leading[28.13px] text-[#353535]"
+                  href=""
+                  >تماس با ما</a
+                >
+              </div>
+              <button class="close desktop:hidden w-full h-[30px]">
+                &times;
+              </button>
+            </nav>
+
+            <div
+              class="w-6 h-6 desktop:static mobile:absolute mobile:bottom-[18px]"
+            >
+              <img src="./public/image/search.png" alt="" />
+            </div>
+          </div>
+          <!--#endregion -->
+          <!--#region login -->
+          <div
+            class="w-[122px] h-10 desktop:static mobile:absolute mobile:left-[32px] mobile:bottom-[15px] flex justify-center items-center bg-[#194BF0] px-4 py-1 rounded-lg"
+          >
+            <a
+              class="block w-[90px] h-7 font-(family-name:--estedad-fd) text-[15px] font-medium text-center leading-[28.13px] text-[#FFFFFF]"
+              href=""
+              >ورود / ثبت‌نام</a
+            >
+          </div>
+          <!--#endregion -->
+        </header>
+        <!-- #endregion -->
+        <div
+          class="w-[179px] h-[85px] mt-[47px] absolute left-[calc(50%-179px/2)] flex flex-col justify-between items-center"
+        >
+          <h3
+            class="w-full h-[45px] font-(family-name:--estedad-fd) font-bold text-[32px] leading-[45px] text-[#FDB713] text-center"
+          >
+            درباره ما
+          </h3>
+          <div
+            class="w-[110px] h-[25px] flex flex-row gap-x-1.5 justify-center items-center"
+          >
+            <span
+              class="block w-[36px] h-full font-(family-name:--estedad-fd) font-[400] text-[14px] leading-[180%] text-[#ffffff] text-right"
+              >اتورنت</span
+            >
+            <img src="./public/image/arrow-left-question.png" alt="" />
+            <span
+              class="block w-[50px] h-full font-(family-name:--estedad-fd) font-[400] text-[14px] leading-[180%] text-[#ffffff] text-right"
+              >درباره ما</span
+            >
+          </div>
+        </div>
+      </div>
+      <!-- #endregion banner -->
+      <!--#region presentation -->
+      <div class="w-[90%] h-fit bg-[#FFFFFF] rounded-2xl mt-[56px] mx-auto p-6">
+        <div class="w-full h-[41px]">
+          <h4
+            class="font-(family-name:--estedad-fd) font-bold text-2xl text-[#353535] leading-[140%] desktop:text-right mobile:text-center"
+          >
+            معرفی اتورنت
+          </h4>
+        </div>
+        <div class="w-full h-[3px] mt-1 flex flex-row">
+          <div
+            class="desktop:w-[3.41%] h-[3px] bg-[#FDB713] rounded-[8px] mobile:w-[10%]"
+          ></div>
+          <div
+            class="desktop:w-[96.84%] h-[1px] bg-[#D7D7D7] rounded-[4px] mobile:w-[90%]"
+          ></div>
+        </div>
+        <p
+          class="w-full h-fit mt-3 font-(family-name:--estedad-fd) font-[400] text-[14px] leading-[180%] text-[#353535] text-justify"
+        >
+          اتورنت با رویکرد اعتماد به مشتری، در ابتدا با ایجاد بزرگترین ناوگان
+          خودرویی متشکل از انواع خودروهای صفر کیلومتر، اقتصادی تا تجاری در سراسر
+          کشور ایران و در تمامی شهرهای اصلی کشور و تمامی فرودگاه های اصلی و با
+          هدف ارتقاء واقعی خدمات خوب و خدماتی همانندکشورهای پیــــشرفته در
+          مــیهن عزیزمان ایران سرمایه‌گذاری نموده و این مهم با جلب همکاری سایر
+          شرکای تجاری و جذب سرمایه تا رسیدن به هدف ایجاد‌ شبکه ای بالغ بر صد
+          هزار خودرو و گسترش شبکه به کلیه شهرستانهای کوچک ایران ادامه خواهد
+          یافت.مدل تـجاری اتورنت ، با محوریت اعـتماد به مشتری، امـکان اجاره
+          خودرو با استانداردهای روز دنیا و بدون دریافت تضامین سنتی همانند چک و
+          سفته و اسناد ملکی را فراهم می سازد.
+        </p>
+      </div>
+      <!--#endregion presentation -->
+      <!--#region about -->
+      <div
+        class="w-[90%] h-fit mt-[23px] mx-auto flex desktop:flex-row desktop:gap-x-6 mobile:h-fit mobile:flex-col mobile:gap-y-6"
+      >
+        <div
+          class="desktop:w-1/3 h-[186px] bg-[#FFFFFF] rounded-2xl border-solid border border-[#D7D7D7] px-6 py-4 flex justify-center items-center mobile:w-full"
+        >
+          <div
+            class="w-[97%] h-[154px] gap-y-2 flex flex-col flex-wrap items-center"
+          >
+            <div
+              class="w-[72px] h-[72px] rounded-xl border border-solid border-[#08237D] p-3"
+            >
+              <img src="./public/image/box.png" alt="" />
+            </div>
+            <div class="w-[93px] h-[22px] flex justify-center items-center">
+              <p class="font-(family-name:--estedad-fd) text-[16px] font-bold">
+                تحویل در محل
+              </p>
+            </div>
+            <div class="w-full h-[44px]">
+              <p
+                class="font-(family-name:--estedad-fd) text-[12px] font-[400] text-center leading-[180%]"
+              >
+                تحویل خودرو در زمان و مکان تعیین شده توسط شما خواهد بود.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="desktop:w-1/3 h-[186px] bg-[#ffffff] rounded-2xl border-solid border border-[#D7D7D7] px-6 py-4 flex justify-center items-center mobile:w-full"
+        >
+          <div
+            class="w-[97%] h-[154px] gap-y-2 flex flex-col flex-wrap items-center"
+          >
+            <div
+              class="w-[72px] h-[72px] rounded-xl border border-solid border-[#08237D] p-3"
+            >
+              <img src="./public/image/24-support.png" alt="" />
+            </div>
+            <div class="w-[129px] h-[22px] flex justify-center items-center">
+              <p class="font-(family-name:--number) text-[16px] font-bold">
+                پشتیبانی 24 ساعته
+              </p>
+            </div>
+            <div class="w-full h-[44px]">
+              <p
+                class="font-(family-name:--estedad-fd) text-[12px] font-[400] text-center leading-[180%]"
+              >
+                کارشناسان ما در هر زمان و مکان، پاسخگوی سوالات شما خواهند بود.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="desktop:w-1/3 h-[186px] bg-[#FFFFFF] rounded-2xl border-solid border border-[#D7D7D7] px-6 py-4 flex justify-center items-center mobile:w-full"
+        >
+          <div
+            class="w-[97%] h-[154px] gap-y-2 flex flex-col flex-wrap items-center"
+          >
+            <div
+              class="w-[72px] h-[72px] rounded-xl border border-solid border-[#08237D] p-3"
+            >
+              <img src="./public/image/wallet-minus.png" alt="" />
+            </div>
+            <div class="w-[92px] h-[22px] flex justify-center items-center">
+              <p class="font-(family-name:--estedad-fd) text-[16px] font-bold">
+                قیمت مناسب
+              </p>
+            </div>
+            <div class="w-full h-[44px]">
+              <p
+                class="font-(family-name:--estedad-fd) text-[12px] font-[400] text-center leading-[180%]"
+              >
+                هدف ما، ارائه بهترین خدمات با مناسب ترین قیمت ممکن است.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--#endregion about -->
+      <!--#region network -->
+      <div class="w-[90%] h-fit bg-[#FFFFFF] rounded-2xl mt-[20px] mx-auto p-6">
+        <div class="w-full h-fit">
+          <h4
+            class="font-(family-name:--estedad-fd) font-bold text-2xl text-[#353535] leading-[140%] desktop:text-right mobile:text-center"
+          >
+            شبکه نمایندگان و شرکتهای اجاره خودروی همکار
+          </h4>
+        </div>
+        <div class="w-full h-[3px] mt-1 flex flex-row">
+          <div
+            class="desktop:w-[3.41%] h-[3px] bg-[#FDB713] rounded-[8px] mobile:w-[10%]"
+          ></div>
+          <div
+            class="desktop:w-[96.84%] h-[1px] bg-[#D7D7D7] rounded-[4px] mobile:w-[90%]"
+          ></div>
+        </div>
+        <p
+          class="w-full h-fit mt-3 font-(family-name:--estedad-fd) font-[400] text-[14px] leading-[180%] text-[#353535] text-justify"
+        >
+          اتورنت دارای شبکه ای شامل ایستگاه های داخل شهری و فرودگاهی می باشد که
+          این ایستگاه ها توسط نمایندگان و شرکای تجاری نگهداری و مدیریت می‌گردند،
+          افرادی که علاقمند به سرمایه‌گذاری و همکاری با ناواران می‌باشند
+          می‌توانند بصورت نمایندگی یا همکار تجاری فعالیت نمایند ، در هر صورت این
+          اشخاص می بایست دوره های آموزش را طبق استاندارد بین‌المللی گذرانده و
+          تحت استاندارد و کیفیت مورد نیاز ناواران شروع به فعالیت نمایند.<br />دارا
+          بودن سرمایه مورد نیاز جهت خرید حداقل تعداد خودروهای صفر کیلومتر در
+          محدوده تحت پوشش و قبل از هرچیز اهمیت به اصل خدمت به هموطنان و رضایت
+          مشتریان از شرایط اصلی اعطای نمایندگی می باشد.نمایندگان دارای اپلیکیشن
+          موبایل و سیستم آنلاین مرتبط با سامانه مدیریت مرکزی می باشند، و تمامی
+          امور رزرو و محاسبات مرتبط بصورت خودکار انجام پذیرفته و نمایندگان از
+          پشتیبانی کامل شرکت مرکزی در تمامی مراحل برخوردار خواهند بود.
+        </p>
+      </div>
+      <!--#endregion network -->
+      <!--#region repair  -->
+      <div
+        class="bg-[url(../image/about-repair.png)] w-[90%] h-[529px] bg-no-repeat bg-cover bg-top mx-auto mt-[22px] rounded-2xl relative"
+      >
+        <div
+          class="w-full h-full rounded-2xl absolute top-0 bg-[#000000] opacity-60"
+        ></div>
+        <h3
+          class="w-full desktop:h-[45px] absolute desktop:top-[279px] font-(family-name:--estedad-fd) font-bold text-[32px] leading-[140%] text-[#FFFFFF] text-center mobile:h-fit mobile:top-0"
+        >
+          شبکه امدادی و تعمیرات خودرو
+        </h3>
+        <p
+          class="desktop:w-[76.80%] h-fit absolute desktop:top-[340px] desktop:left-[calc(50%-76.80%/2)] font-(family-name:--estedad-fd) font-normal text-[14px] text-[#ffffff] leading-[180%] text-center mobile:w-full mobile:top-[120px] mobile:left-0"
+        >
+          شبکه تحت پوشش اتورنت که با سرمایه‌گذاری و همکاری شرکای تجاری در خدمت
+          مشتریان قرار گرفته است شامل 2000 نقطه در سراسر کشور ایــران و مناطق
+          آزاد تجاری مـی‌باشد که باعث شده سرعت امداد رسانی در هر نقطه ایران به
+          کمتر از 30 دقیقه کاهش یابد، امدادگران و خودروهای امدادی همگی مجهز به
+          تجهیزات جهت رفع معایب و تعمیرات ساده بوده و بسیاری از مشکلات در همین
+          مرحله به سادگی رفع می گردند.
+        </p>
+        <div
+          class="desktop:w-[82.95%] desktop:min-h-[142px] absolute desktop:top-[449px] desktop:left-[calc(50%-82.95%/2)] flex desktop:flex-row desktop:gap-x-6 mobile:w-[90%] mobile:top-[550px] mobile:left-[calc(50%-90%/2)] mobile:flex-col mobile:gap-y-6 mobile:min-h-[412px]"
+        >
+          <div
+            class="desktop:w-1/2 desktop:min-h-full bg-[#FFFFFF] pt-3 pb-2 px-6 border border-solid border-[#C2C2C2] rounded-2xl flex flex-col gap-y-2.5 items-center mobile:w-full mobile:min-h-[200px]"
+          >
+            <span
+              class="block w-fit h-[28px] border-b-2 border-solid border-b-[#FDB713] font-(family-name:--estedad-fd) font-bold text-[16px] text-[#0C0C0C] leading-[180%] text-center"
+              >خدمات شبانه روزی</span
+            >
+            <p
+              class="w-[99%] h-fit font-(family-name:--estedad-fd) font-[400px] text-[12px] text-[#0C0C0C] leading-[180%] text-justify"
+            >
+              اتورنت در تــمامی بخش‌های اصـلی از جـمله مرکز تماس مشتریان و خدمات
+              امدادی بصورت دائمی تمامی روزهای هفته و 24 ساعته فعال است، بیشتر
+              ایستگاه های کاری تحویل خودرو نیز بصورت 24 ساعته می‌باشند ، فقط
+              واحد اداری و فروش اجاره های بلند مدت در ساعات اداری و روزهای اداری
+              فعال می باشند.
+            </p>
+          </div>
+          <div
+            class="desktop:w-1/2 desktop:min-h-full bg-[#FFFFFF] pt-3 pb-2 px-6 border border-solid border-[#C2C2C2] rounded-2xl flex flex-col gap-y-2.5 items-center mobile:w-full mobile:min-h-[200px]"
+          >
+            <span
+              class="block w-fit h-[28px] border-b-2 border-solid border-b-[#FDB713] font-(family-name:--estedad-fd) font-bold text-[16px] text-[#0C0C0C] leading-[180%] text-center"
+              >ارائه خودرو جایگزین</span
+            >
+            <p
+              class="w-[99%] h-fit font-(family-name:--estedad-fd) font-[400px] text-[14px] text-[#0C0C0C] leading-[180%] text-justify"
+            >
+              با توجه به تعداد خودرو های موجود در اتورنت امکان ارائه خودروی
+              جایگزین در خرابی ها و تعمیرات طولانی مدت که بصورت امدادی برطرف
+              نگردند ، در هر نقطه از ایران میسر می باشد.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--#endregion repair  -->
+      <!--#region footer  -->
+      <footer
+        class="w-[90%] h-fit bg-[#1E1E1EE5] desktop:mt-[142px] absolute left-[calc(50%-90%/2)] rounded-2xl px-[24px] py-[41px] flex flex-col gap-y-4 items-center drop-shadow-[0px_0px_6px_#00000059] mobile:mt-[480px]"
+      >
+        <div
+          class="desktop:w-[92%] h-fit rounded-2xl p-4 border border-solid border-[#868686] flex desktop:flex-row flex-nowrap desktop:gap-x-[81px] items-center mobile:w-[99%] mobile:flex-col mobile:gap-y-[30px]"
+        >
+          <div
+            class="desktop:w-[22.73%] h-fit flex desktop:flex-row desktop:gap-x-4 justify-center items-center mobile:w-full mobile:flex-col mobile:gap-y-4"
+          >
+            <div
+              class="w-[48px] h-[48px] rounded-[12px] p-3 border border-solid border-[#FFFFFF]"
+            >
+              <img class="" src="./public/image/call-calling.png" alt="" />
+            </div>
+            <div class="w-[51%] h-fit flex flex-col gap-y-3 items-center">
+              <p
+                class="w-fit h-[29px] font-(family-name:--estedad-fd) font-[400] text-[16px] leading-[29px] text-[#FFFBFB]"
+              >
+                ارتباط با ما
+              </p>
+              <p
+                class="w-full h-fit font-(family-name:--number) font-[400] text-[16px] leading-[28px] text-[#FFFFFF] text-center drop-shadow-[0px_4px_4px_#00000040]"
+              >
+                0912-21326545
+              </p>
+            </div>
+          </div>
+          <div
+            class="h-[32px] border border-solid border-[#868686] mobile:rotate-90"
+          ></div>
+          <div
+            class="desktop:w-[22.73%] h-fit flex desktop:flex-row desktop:gap-x-4 justify-center items-center mobile:w-full mobile:flex-col mobile:gap-y-4"
+          >
+            <div
+              class="w-[48px] h-[48px] rounded-[12px] p-3 border border-solid border-[#FFFFFF]"
+            >
+              <img class="" src="./public/image/sms.png" alt="" />
+            </div>
+            <div class="w-[61%] h-fit flex flex-col gap-y-3 items-center">
+              <p
+                class="w-fit h-[29px] font-(family-name:--estedad-fd) font-[400] text-[16px] leading-[29px] text-[#FFFBFB]"
+              >
+                ایمیل
+              </p>
+              <p
+                class="w-full h-fit font-(family-name:--number) font-[400] text-[16px] leading-[28px] text-[#FFFFFF] text-center drop-shadow-[0px_4px_4px_#00000040]"
+              >
+                autorent@info.com
+              </p>
+            </div>
+          </div>
+          <div
+            class="h-[32px] border border-solid border-[#868686] mobile:rotate-90"
+          ></div>
+          <div
+            class="desktop:w-[22.73%] h-fit flex desktop:flex-row desktop:gap-x-4 justify-center items-center mobile:w-full mobile:flex-col mobile:gap-y-4"
+          >
+            <div
+              class="w-[48px] h-[48px] rounded-[12px] p-3 border border-solid border-[#FFFFFF]"
+            >
+              <img class="" src="./public/image/map.png" alt="" />
+            </div>
+            <div class="w-[50%] h-fit flex flex-col gap-y-3 items-center">
+              <p
+                class="w-fit h-[29px] font-(family-name:--estedad-fd) font-[400] text-[16px] leading-[29px] text-[#FFFBFB]"
+              >
+                آدرس
+              </p>
+              <p
+                class="w-full h-fit font-(family-name:--number) font-[400] text-[16px] leading-[28px] text-[#FFFFFF] text-center drop-shadow-[0px_4px_4px_#00000040]"
+              >
+                تهران- خ شادمان
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="desktop:w-[97%] h-fit flex flex-col gap-y-4 items-center mobile:w-[99%]"
+        >
+          <div
+            class="w-[94.81%] h-fit flex desktop:flex-row gap-x-[88px] items-center justify-center mobile:w-full mobile:flex-col mobile:gap-y-[30px]"
+          >
+            <div
+              class="desktop:w-[51.30%] h-full flex desktop:flex-row gap-x-[32px] mobile:w-full mobile:flex-col mobile:gap-y-[20px]"
+            >
+              <div
+                class="desktop:w-[76.57%] h-full flex flex-col gap-y-6 desktop:items-start mobile:w-full mobile:items-center"
+              >
+                <a class="block w-[151.28px] h-[59px]" href="./index.html">
+                  <img src="./public/image/Logo-footer.png" alt="" />
+                </a>
+                <p
+                  class="w-full h-fit font-(family-name:--estedad-fd) font-[400] text-[14px] leading-[180%] text-[#FFFFFF] desktop:text-justify mobile:text-center"
+                >
+                  اتورنت با رویکرد اعتماد به مشتری، با در اختیار داشتن بزرگترین
+                  ناوگان خودرویی متشکل از انواع خودروهای صفر کیلومتر، اقتصادی تا
+                  تجاری در سراسر کشور ایران آماده خدمت‌رسانی به مشتریان است.
+                </p>
+              </div>
+              <div
+                class="desktop:w-[23.5%] h-full flex flex-col gap-y-4 mobile:w-full"
+              >
+                <a class="block w-full h-[25px]" href="">
+                  <span
+                    class="block w-full h-[25px] font-(family-name:--estedad-fd) font-medium text-[14px] text-[#FFFFFF] leading-[25px] desktop:text-right mobile:text-center"
+                    >دسترسی آسان</span
+                  ></a
+                >
+                <a class="block w-full h-[25px]" href="./question.html">
+                  <span
+                    class="block w-full h-[25px] font-(family-name:--estedad-fd) font-medium text-[14px] text-[#FFFFFF] leading-[25px] desktop:text-right mobile:text-center"
+                    >سوالات متداول</span
+                  ></a
+                >
+                <a class="block w-full h-[25px]" href="">
+                  <span
+                    class="block w-full h-[25px] font-(family-name:--estedad-fd) font-medium text-[14px] text-[#FFFFFF] leading-[25px] desktop:text-right mobile:text-center"
+                    >تماس با ما</span
+                  ></a
+                >
+                <a class="block w-full h-[25px]" href="./about.html">
+                  <span
+                    class="block w-full h-[25px] font-(family-name:--estedad-fd) font-medium text-[14px] text-[#FFFFFF] leading-[25px] desktop:text-right mobile:text-center"
+                    >درباره ما</span
+                  ></a
+                >
+              </div>
+            </div>
+            <div
+              class="desktop:w-[28.69%] h-[80px] flex flex-col gap-y-[12px] mobile:w-full"
+            >
+              <span
+                class="block w-fit h-[28px] font-(family-name:--estedad-fd) font-[600] text-[16px] leading-[28px] text-[#FFFFFF] text-right"
+                >خبرنامه</span
+              >
+              <form
+                action=""
+                method="post"
+                class="w-full h-[40px] border border-solid border-[#C2C2C2] rounded-md flex flex-row gap-x-2 justify-center items-center"
+              >
+                <input
+                  type="email"
+                  name="email"
+                  id=""
+                  placeholder="ایمیل خود را وارد کنید"
+                  class="w-[73.12%] h-full font-(family-name:--estedad-fd) font-[400] text-[12px] text-[#C2C2C2] leading-[180%] text-right focus:outline-0"
+                />
+                <button
+                  type="submit"
+                  class="w-[20.62%] h-[32px] bg-[#FDB713] rounded-[6px] font-(family-name:--estedad-fd) font-semibold text-[14px] text-[#212121] leading-[180%] text-center cursor-pointer"
+                >
+                  ارسال
+                </button>
+              </form>
+            </div>
+          </div>
+          <div class="w-full h-[49px] flex flex-col gap-y-6 items-center">
+            <div class="w-[95%] border border-solid border-[#868686]"></div>
+            <div
+              class="desktop:w-fit desktop:h-[25px] flex flex-row items-center gap-x-2 mobile:w-full mobile:h-fit"
+            >
+              <div class="w-[24px] h-[24px] flex items-center justify-center">
+                <img
+                  class="w-[24px] h-[24px]"
+                  src="./public/image/creative-commons.png"
+                  alt=""
+                />
+              </div>
+              <p
+                class="desktop:w-fit desktop:h-[25px] font-(family-name:--estedad-fd) font-medium text-[14px] leading-[25px] text-center text-[#9A9A9A] mobile:w-full mobile:h-fit"
+              >
+                تمامی حقوق این وبسایت متعلق به اتورنت می‌باشد
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--#endregion footer  -->
+    </div>
+    <!--#endregion wrapper -->
+    <script>
+      let hamburger = document.querySelector(".hamburger");
+      let nav = document.querySelector(".nav");
+      let close = document.querySelector(".close");
+      hamburger.addEventListener("click", function () {
+        nav.style.right = "0";
+        nav.style.top = "0";
+      });
+      close.addEventListener("click", function () {
+        nav.style.right = "-100%";
+      });
+    </script>
+  </body>
+</html>
